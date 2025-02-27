@@ -1,0 +1,117 @@
+h1{
+    text-align: center;
+    font-family:'Helvetica Neue', sans-serif
+}
+
+.description{
+ text-align: center;
+ font-size: 48px;
+}
+.container{
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+
+body {
+    background-color: lightblue;  /* Light blue background color */
+}
+
+
+/* Navbar styling */
+.navbar {
+    background-color: black;  /* Black background for the navbar */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;  /* White text color */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;  /* Change text color to yellow on hover */
+}
+
+h2{
+    background-color: black;  /* Black background for the navbar */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.about-me{
+    text-align: center;
+    font-size: 36px;
+}
+
+.black-button {
+    background-color: black; /* Set background color to black */
+    color: white; /* Text color white */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    align-content: center;
+    margin: auto;
+    display: block;
+  }
+  
+  .black-button:hover {
+    background-color: darkgray; /* Optional: Change color on hover */
+  }
+  h3{
+    display: flex;
+    margin-block: 20px;
+  }
+
+  .portfolio-container {
+    display: flex;
+    justify-content: space-between; /* Space out the projects */
+    gap: 20px; /* Add spacing between the projects */
+    flex-wrap: wrap; /* Allow the projects to wrap onto the next row on smaller screens */
+    padding: 20px;
+  }
+  
+  .project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Each project takes up 30% of the container's width */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    
+   
+}
+    
+  
+  
+  .project:hover {
+    transform: scale(1.05); /* Hover effect: slightly enlarge the project */
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
